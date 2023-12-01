@@ -1,4 +1,4 @@
-### Hola 👋, Soy Fabricio 👋
+### Hola Soy Fabricio 👋
 #### Habilidades:
 
 
