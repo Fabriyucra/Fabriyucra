@@ -11,12 +11,23 @@ public class Fabriyucra {
     private String name;    
     private CodeLanguages code;
     private List<String> architecture;
+    private List<String> frontend;
+    private List<String> backend;
+    private List<String> database;
+    private List<String> devops;
+    private List<String> tools;
+    private List<String> misc;
 
     public Fabriyucra() {
         this.username = "Fabriyucra";
-        this.name = "Fabricio Yucra";     
-        this.code = new CodeLanguages();
+        this.name = "Fabricio Yucra";
         this.architecture = Arrays.asList("SPA", "MVC", "Serverless", "microservices");
+        this.frontend = Arrays.asList("HTML", "CSS", "JavaScript", "ReactJS", "Svelte", "Boostrap", "TailWind");
+        this.backend = Arrays.asList("Python", "PHP", "Flask", "Django", "Laravel", "NodeJS", "Odoo");
+        this.database = Arrays.asList("PostgreSQL", "MySQL", "SQLite3", "Mongo DB");
+        this.devops = Arrays.asList("Docker", "Nginx", "Jenkins", "GitHub Actions", "AWS", "Heroku");
+        this.tools = Arrays.asList("GIT", "GitHub", "GitLab", "Pandas", "Jupyter notebook", "SQLAlchemy", "Redis", "Celery");
+        this.misc = Arrays.asList("Firebase", "TDD", "SCRUM", "SOLID", "GNU/Linux");
     }
 
     public String getName() { return name;}
@@ -25,22 +36,18 @@ public class Fabriyucra {
 
     public List<String> getArchitecture() { return architecture;}
 
-    @Override
-    public String toString() { return name;}
+    public List<String> getFronted() { return frontend;}
 
-    public static void main(String[] args) {
-        Fabriyucra me = new Fabriyucra();
-        System.out.println(me);
-    }
+    public List<String> getBackend() { return backend;}
 
-    public static class CodeLanguages {
-        public List<String> frontend = Arrays.asList("HTML", "CSS", "JavaScript", "ReactJS", "Svelte", "Boostrap", "TailWind");
-        public List<String> backend = Arrays.asList("Python", "PHP", "Flask", "Django", "Laravel", "NodeJS", "Odoo");
-        public List<String> database = Arrays.asList("PostgreSQL", "MySQL", "SQLite3", "Mongo DB");
-        public List<String> devops = Arrays.asList("Docker", "Nginx", "Jenkins", "GitHub Actions", "AWS", "Heroku");
-        public List<String> tools = Arrays.asList("GIT", "GitHub", "GitLab", "Pandas", "Jupyter notebook", "SQLAlchemy", "Redis", "Celery");
-        public List<String> misc = Arrays.asList("Firebase", "TDD", "SCRUM", "SOLID", "GNU/Linux");
-    }
+    public List<String> getDatabase() { return database;}
+
+    public List<String> getDevops() { return devops;}
+
+    public List<String> getTools() { return tools;}
+
+    public List<String> getMisc() { return misc;}
+  
 }
 ```
 ## Get in touch
