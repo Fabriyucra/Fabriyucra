@@ -2,8 +2,8 @@
 
 ### Hola Soy Fabricio 👋
 
-- 🙋‍♀️ Estudio la Tecnicatura en Desarrollo web en La universidad Nacional de la Matanza y la Tecnicatura en Aplicaciones Moviles.
-- 👩‍💻 Desarrollador de software desde enero de 2021.
+- 🙋🏻‍♂️ Estudio la Tecnicatura en Desarrollo web en La universidad Nacional de la Matanza y la Tecnicatura en Aplicaciones Moviles.
+- 🧑🏻‍💻 Desarrollador de software desde enero de 2021.
 
 ## Habilidades:
 - Experiencia y conocimientosólido en programación orientada a objetos, con habilidades probadas en la construcción de software de alta calidad.
