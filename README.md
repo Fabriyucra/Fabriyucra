@@ -1,8 +1,5 @@
 
-## Hi, I'm Rafnix
-![](https://raw.githubusercontent.com/rafnixg/rafnixg/master/rafnix_header.jpeg)
-
-![Python application](https://github.com/rafnixg/rafnixg/workflows/Python%20application/badge.svg?branch=master&event=schedule) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=rafnixg.rafnixg)
+## Hola, Soy Fabricio 👋
 
 ```java
 import java.util.Arrays;
@@ -17,28 +14,19 @@ public class Fabriyucra {
 
     public Fabriyucra() {
         this.username = "Fabriyucra";
-        this.name = "Fabricio Yucra";
-+        
+        this.name = "Fabricio Yucra";     
         this.code = new CodeLanguages();
         this.architecture = Arrays.asList("SPA", "MVC", "Serverless", "microservices");
     }
 
-    public String getName() {
-        return name;
-    }
+    public String getName() { return name;}
 
-    public CodeLanguages getCode() {
-        return code;
-    }
+    public CodeLanguages getCode() { return code;}
 
-    public List<String> getArchitecture() {
-        return architecture;
-    }
+    public List<String> getArchitecture() { return architecture;}
 
     @Override
-    public String toString() {
-        return name;
-    }
+    public String toString() { return name;}
 
     public static void main(String[] args) {
         Fabriyucra me = new Fabriyucra();
@@ -56,24 +44,3 @@ public class Fabriyucra {
 }
 ```
 ## Get in touch
-
-- Twitter: https://twitter.com/rafnixg
-- Personal Site: https://rafnixg.dev
-
-## Latest Posts (Spanish)
-
-
-- [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 3](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-3/)
-
-- [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 2](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-2/)
-
-- [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 1](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-1/)
-
-- [Crea tu blog con python usando GitHub Pages y Pelican](http://rafnixg.dev/crea-tu-blog-con-python-usando-github-pages-y-pelican/)
-
-- [🐍 Entornos virtuales en Python usando Pipenv](http://rafnixg.dev/entornos-virtuales-en-python-usando-pipenv/)
-
-----
-Credit: [rafnixg](https://github.com/rafnixg)
-
-Last Edited on: 08/09/2020
