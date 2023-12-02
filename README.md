@@ -9,7 +9,6 @@ public class Fabriyucra {
 
     private String username;
     private String name;    
-    private CodeLanguages code;
     private List<String> architecture;
     private List<String> frontend;
     private List<String> backend;
@@ -31,8 +30,6 @@ public class Fabriyucra {
     }
 
     public String getName() { return name;}
-
-    public CodeLanguages getCode() { return code;}
 
     public List<String> getArchitecture() { return architecture;}
 
