@@ -1,19 +1,79 @@
-### Hola Soy Fabricio 👋
-#### Habilidades:
+
+## Hi, I'm Rafnix
+![](https://raw.githubusercontent.com/rafnixg/rafnixg/master/rafnix_header.jpeg)
+
+![Python application](https://github.com/rafnixg/rafnixg/workflows/Python%20application/badge.svg?branch=master&event=schedule) ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=rafnixg.rafnixg)
+
+```java
+import java.util.Arrays;
+import java.util.List;
+
+public class Fabriyucra {
+
+    private String username;
+    private String name;    
+    private CodeLanguages code;
+    private List<String> architecture;
+
+    public Fabriyucra() {
+        this.username = "Fabriyucra";
+        this.name = "Fabricio Yucra";
++        
+        this.code = new CodeLanguages();
+        this.architecture = Arrays.asList("SPA", "MVC", "Serverless", "microservices");
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public CodeLanguages getCode() {
+        return code;
+    }
+
+    public List<String> getArchitecture() {
+        return architecture;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+        Fabriyucra me = new Fabriyucra();
+        System.out.println(me);
+    }
+
+    public static class CodeLanguages {
+        public List<String> frontend = Arrays.asList("HTML", "CSS", "JavaScript", "ReactJS", "Svelte", "Boostrap", "TailWind");
+        public List<String> backend = Arrays.asList("Python", "PHP", "Flask", "Django", "Laravel", "NodeJS", "Odoo");
+        public List<String> database = Arrays.asList("PostgreSQL", "MySQL", "SQLite3", "Mongo DB");
+        public List<String> devops = Arrays.asList("Docker", "Nginx", "Jenkins", "GitHub Actions", "AWS", "Heroku");
+        public List<String> tools = Arrays.asList("GIT", "GitHub", "GitLab", "Pandas", "Jupyter notebook", "SQLAlchemy", "Redis", "Celery");
+        public List<String> misc = Arrays.asList("Firebase", "TDD", "SCRUM", "SOLID", "GNU/Linux");
+    }
+}
+```
+## Get in touch
+
+- Twitter: https://twitter.com/rafnixg
+- Personal Site: https://rafnixg.dev
+
+## Latest Posts (Spanish)
 
 
-Estudio la Tecnicatura en Desarrollo web en La universidad Nacional de la Matanza y la Tecnicatura en Desarrollo de Aplicaciones Móviles.
-Desarrollador de software desde enero de 2021.
+- [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 3](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-3/)
 
+- [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 2](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-2/)
 
-Habilidades: VUE JS / REACT / JS / HTML / CSS
+- [Actualiza tu perfil de GitHub con README y GitHub Actions - Parte 1](http://rafnixg.dev/actualiza-tu-perfil-de-github-con-readme-y-github-actions-part-1/)
 
-- 🔭 Estoy trabajando en this page. 
+- [Crea tu blog con python usando GitHub Pages y Pelican](http://rafnixg.dev/crea-tu-blog-con-python-usando-github-pages-y-pelican/)
 
+- [🐍 Entornos virtuales en Python usando Pipenv](http://rafnixg.dev/entornos-virtuales-en-python-usando-pipenv/)
 
-[<img src="https://camo.githubusercontent.com/603c4b5be183feb62c872b2507be983d63148742c5746554777656b5d8d4df4e/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f6c696e6b6564696e2f6c696e6b6564696e2d6f726967696e616c2e737667" width="50" data-canonical-src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" style="max-width: 100%;">](https://www.linkedin.com/in/fabricioyucra/)  
+----
+Credit: [rafnixg](https://github.com/rafnixg)
 
-
-
-
-
+Last Edited on: 08/09/2020
