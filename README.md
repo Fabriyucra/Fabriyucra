@@ -28,23 +28,6 @@ public class Fabriyucra {
         this.tools = Arrays.asList("GIT", "GitHub", "GitLab", "Pandas", "Jupyter notebook", "SQLAlchemy", "Redis", "Celery");
         this.misc = Arrays.asList("Firebase", "TDD", "SCRUM", "SOLID", "GNU/Linux");
     }
-
-    public String getName() { return name;}
-
-    public List<String> getArchitecture() { return architecture;}
-
-    public List<String> getFronted() { return frontend;}
-
-    public List<String> getBackend() { return backend;}
-
-    public List<String> getDatabase() { return database;}
-
-    public List<String> getDevops() { return devops;}
-
-    public List<String> getTools() { return tools;}
-
-    public List<String> getMisc() { return misc;}
-  
 }
 ```
 ## Get in touch
